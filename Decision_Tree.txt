@@ -1,0 +1,40 @@
+Polydipsia = No
+|   Polyuria = No
+|   |   Gender = Female
+|   |   |   Alopecia = No
+|   |   |   |   Age > 37: Positive {Positive=14, Negative=0}
+|   |   |   |   Age ≤ 37
+|   |   |   |   |   visual blurring = No
+|   |   |   |   |   |   Age > 34.500: Positive {Positive=3, Negative=1}
+|   |   |   |   |   |   Age ≤ 34.500: Negative {Positive=0, Negative=3}
+|   |   |   |   |   visual blurring = Yes: Positive {Positive=4, Negative=0}
+|   |   |   Alopecia = Yes: Negative {Positive=1, Negative=8}
+|   |   Gender = Male
+|   |   |   Irritability = No
+|   |   |   |   delayed healing = No: Negative {Positive=0, Negative=70}
+|   |   |   |   delayed healing = Yes
+|   |   |   |   |   Age > 40: Negative {Positive=1, Negative=33}
+|   |   |   |   |   Age ≤ 40: Positive {Positive=2, Negative=0}
+|   |   |   Irritability = Yes
+|   |   |   |   Genital thrush = No: Negative {Positive=1, Negative=8}
+|   |   |   |   Genital thrush = Yes: Positive {Positive=4, Negative=0}
+|   Polyuria = Yes
+|   |   delayed healing = No: Positive {Positive=20, Negative=0}
+|   |   delayed healing = Yes
+|   |   |   Itching = No: Positive {Positive=7, Negative=0}
+|   |   |   Itching = Yes
+|   |   |   |   Gender = Female: Positive {Positive=4, Negative=0}
+|   |   |   |   Gender = Male
+|   |   |   |   |   Alopecia = No: Positive {Positive=2, Negative=0}
+|   |   |   |   |   Alopecia = Yes: Negative {Positive=1, Negative=12}
+Polydipsia = Yes
+|   Polyuria = No
+|   |   Irritability = No
+|   |   |   Alopecia = No
+|   |   |   |   Gender = Female: Positive {Positive=2, Negative=0}
+|   |   |   |   Gender = Male
+|   |   |   |   |   visual blurring = No: Positive {Positive=1, Negative=1}
+|   |   |   |   |   visual blurring = Yes: Negative {Positive=0, Negative=4}
+|   |   |   Alopecia = Yes: Positive {Positive=7, Negative=0}
+|   |   Irritability = Yes: Positive {Positive=13, Negative=0}
+|   Polyuria = Yes: Positive {Positive=137, Negative=0}
